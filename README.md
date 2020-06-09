@@ -31,7 +31,10 @@ Does the strategy work? Yes, but one would be far better off passively holding S
 2. Price data
 3. Estimates data 
 
-Feel free to clone the repo and conduct your own investigation! :smile:
+Feel free to clone/branch the repo and conduct your own investigation! :smile:
+
+## Future Developments
+I'll be continually updating more code to investigate more anomalies found by researchers. So if you're interested, you could check in again in a couple of weeks/months. Cheers!
 
 ## Appendix A 
 Notable missing tickers - GOOGL, FB, AAPL, MSFT. <br>
