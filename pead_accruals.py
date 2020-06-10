@@ -34,7 +34,14 @@ def reading_data(start_date,end_date):
                     'netIncome_x',
                     ]]
 
-    core.fillna(value=0,inplace=True)
+    core['totalCashflowsFromInvestingActivities'] = core.groupby('Ticker')['totalCashflowsFromInvestingActivities'].ffill()
+    core['totalCashFromFinancingActivities'] = core.groupby('Ticker')['totalCashFromFinancingActivities'].ffill()
+    core['totalCashFromOperatingActivities'] = core.groupby('Ticker')['totalCashFromOperatingActivities'].ffill()
+    core['totalStockholderEquity'] = core.groupby('Ticker')['totalStockholderEquity'].ffill()
+    core['depreciation'] = core.groupby('Ticker')['depreciation'].ffill()
+    core['dividendsPaid'] = core.groupby('Ticker')['dividendsPaid'].ffill()
+    core['netIncome_x'] = core.groupby('Ticker')['netIncome_x'].ffill()
+    core.dropna(inplace=True)
     core['ChangeInCash'] = core['totalCashFromOperatingActivities'] + core['totalCashFromFinancingActivities'] + core['totalCashflowsFromInvestingActivities']
     core['WC'] = core['netIncome_x'] + core['depreciation'] - core['totalCashFromOperatingActivities']
     core['NCO'] = core['netIncome_x'] - core['totalCashFromOperatingActivities'] - core['totalCashflowsFromInvestingActivities']
