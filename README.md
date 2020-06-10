@@ -4,7 +4,7 @@ The aim is to examine if the [Accrual anomaly (Balakrishnan et al. 2009)](https:
 
 "The Accrual Anomaly" (Balakrishnan et al. 2009) questioned the persistence of stellar earnings performances that were driven by accruals. Secondly, "Post Loss/Profit Announcement Drift" (Sloan et al. 2011) which attempted to understand why prices drift after earnings announcements, even when the underlying fundamentals of the company have not shifted significantly.
 
-Concretely, both papers explored ideas that oppose the efficient markets hypothesis. I was curious if these inefficiencies/anomalies still exist today and if so, are they viable strategies. With some visualisations, we observe some semblence of the anomalies.
+Concretely, both papers explored ideas that oppose the efficient markets hypothesis. I was curious if these inefficiencies/anomalies still exist today and if so, are they viable strategies. With some visualisations, we observe some semblance of the anomalies.
 
 #### Nike
 ![](Images/nke_pead.png)
