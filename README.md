@@ -9,10 +9,11 @@ Concretely, both papers explored ideas that oppose the efficient markets hypothe
 #### Nike
 ![](Images/nke_pead.png)
 ![](Images/nke_tacc.png)
+*TACC: Total Accruals
 
 #### Ebay
-![](Images/ebay_tacc.png)
 ![](Images/ebay_pead.png)
+![](Images/ebay_tacc.png)
 
 #### About my data
 I've opted to exclude the months of COVID-19 due to extreme volatility in the market and influx of liquidity introduced.<br>
