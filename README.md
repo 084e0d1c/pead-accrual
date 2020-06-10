@@ -1,6 +1,6 @@
 # Post Earnings Announcement Drift (PEAD) & Accrual Anomaly
 
-The aim is to examine if the [Accrual anomaly (Balakrishnan et al. 2009)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1793364) and [PEAD (Dechow et al. 2011)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1510321) still exist today. 
+The aim is to examine if the [Accrual anomaly (Balakrishnan et al. 2009)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1793364) and [PEAD (Sloan et al. 2011)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1510321) still exist today. 
 
 "The Accrual Anomaly" (Balakrishnan et al. 2009) questioned the persistence of stellar earnings performances that were driven by accruals. Secondly, "Post Loss/Profit Announcement Drift" (Sloan et al. 2011) which attempted to understand why prices drift after earnings announcements, even when the underlying fundamentals of the company have not shifted significantly.
 
