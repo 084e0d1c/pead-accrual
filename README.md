@@ -2,6 +2,19 @@
 
 The aim is to examine if the [Accrual anomaly (Balakrishnan et al. 2009)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1793364) and [PEAD (Dechow et al. 2011)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1510321) still exist today. 
 
+"The Accrual Anomaly" (Balakrishnan et al. 2009) questioned the persistence of stellar earnings performances that were driven by accruals. Secondly, "Post Loss/Profit Announcement Drift" (Sloan et al. 2011) which attempted to understand why prices drift after earnings announcements, even when the underlying fundamentals of the company have not shifted significantly.
+
+Concretely, both papers explored ideas that oppose the efficient markets hypothesis. I was curious if these inefficiencies/anomalies still exist today and if so, are they viable strategies. With some visualisations, it appears that these inefficiencies might still exist today.
+
+#### Nike
+![](Images/nke_pead.png)
+![](Images/nke_tacc.png)
+
+#### Ebay
+![](Images/ebay_tacc.png)
+![](Images/ebay_pead.png)
+
+#### About my data
 I've opted to exclude the months of COVID-19 due to extreme volatility in the market and influx of liquidity introduced.<br>
 Due to data unavailability, the investigated timeframe is only from 1st Jan 2017 - 1st Jan 2020. <br>
 The holding period for each stock will be monthly and the rebalancing is done at the end of each month. <br>
